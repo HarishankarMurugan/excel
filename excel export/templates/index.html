@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Values</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculate Values and Download Excel</h1>
+        <form action="/download" method="post">
+            <label for="x1">X1:</label>
+            <input type="number" id="x1" name="x1" step="any" required><br>
+            <label for="x2">X2:</label>
+            <input type="number" id="x2" name="x2" step="any" required><br>
+            <label for="x3">X3:</label>
+            <input type="number" id="x3" name="x3" step="any" required><br>
+            <label for="x4">X4:</label>
+            <input type="number" id="x4" name="x4" step="any" required><br>
+            <label for="a_max">Number of columns:</label>
+            <input type="number" id="a_max" name="a_max" required><br>
+            <label for="b_max">Number of rows:</label>
+            <input type="number" id="b_max" name="b_max" required><br>
+            <button type="submit">Download Excel</button>
+        </form>
+    </div>
+</body>
+</html>
